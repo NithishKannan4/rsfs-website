@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Create New Shipment Request</h1>
+      </div>
+    <div style="margin: auto; width: 50%; align-items: center;">
+        <form>
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="fname" class="form-control" />
+                  <label class="form-label" for="fname">First name</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="lname" class="form-control" />
+                  <label class="form-label" for="lname">Last name</label>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Text input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="companyname" class="form-control" />
+              <label class="form-label" for="companyname">Company name</label>
+            </div>
+          
+            <div class="form-outline mb-4">
+              <input type="text" id="address" class="form-control" />
+              <label class="form-label" for="address">Address</label>
+            </div>
+            
+            <div class="form-outline mb-4">
+                <input type="text" id="source" class="form-control" />
+                <label class="form-label" for="source">Source</label>
+              </div>
+          
+            <div class="form-outline mb-4">
+              <input type="email" id="destination" class="form-control" />
+              <label class="form-label" for="destination">Destination</label>
+            </div>
+          
+            <!-- Number input -->
+            <div class="form-outline mb-4">
+                <input type="number" id="phone" class="form-control" />
+                <label class="form-label" for="phone">Phone</label>
+            </div>
+          
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="additionalinformation" rows="4"></textarea>
+              <label class="form-label" for="additionalinformation">Additional information</label>
+            </div>
+
+            <label class="form-label" for="customFile">Upload File</label>
+            <input type="file" class="form-control" id="customFile" />
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Create Shipment Request</button>
+          </form>
+    </div>
+</body>
+</html>
